@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, red, yellow);
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 50px auto;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 10px black;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.box.fizz {
+  background-color: blue;
+}
+
+.box.buzz {
+  background-color: green;
+}
+
+.box.fizz.buzz {
+  background-color: black;
+  color: white;
+}
