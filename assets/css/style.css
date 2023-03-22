@@ -5,13 +5,12 @@
 }
 
 body {
-  height: 100vh;
   background-image: linear-gradient(to right bottom, red, yellow);
   background-repeat: no-repeat;
 }
 
 .container {
-  margin: 50px auto;
+  margin: 30px auto;
   width: 1000px;
   display: flex;
   flex-wrap: wrap;
